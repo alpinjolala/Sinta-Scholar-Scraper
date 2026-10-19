@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SINTA & Scholar Scraper",
+  "version": "1.0",
+  "description": "Ekstrak data publikasi dari Google Scholar dan SINTA.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "*://scholar.google.com/*",
+    "*://sinta.kemdiktisaintek.go.id/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
